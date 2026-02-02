@@ -3,6 +3,10 @@ What is AVA?
 
 This a chat agent that helps people by giving information about vaccination
 
+Tools Used - Knowledge_Base as Vector DB , javascripts, HTML and Flask .
+The chatbot uses the VectorDB for answer refernces and reviews . If he didnot find one he will use his own base.
+It provides vaccinne info generally but it can answer more questions
+
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/89839ff1-b5b2-49ce-b8ab-f3df51e934a9)
 
@@ -56,3 +60,4 @@ Notes:
 - The project expects a `Vector_Database.xlsx` file in the project root for building the vector DB. If that file is not present, the app will start but the vector DB will not be populated.
 
 - Some libraries used in the code (Ollama / LangChain integrations) may require additional setup or non-Python tooling; consult their docs if you plan to use those features.
+
