@@ -4,21 +4,21 @@ What is AVA?
 
 AVA is a RAG-powered virtual vaccine information assistant designed for Bangladesh, focused on providing safe, guideline-based vaccine information—especially for adults with chronic diseases.
 
-✨ Key Features
+***✨ Key Features
 
-💉 Evidence-based vaccine guidance using trusted sources
+-💉 Evidence-based vaccine guidance using trusted sources
 
-📚 Retrieval-Augmented Generation (RAG) with a vector database
+-📚 Retrieval-Augmented Generation (RAG) with a vector database
 
-⚠️ Strict medical safety rules (no diagnosis or prescriptions)
+-⚠️ Strict medical safety rules (no diagnosis or prescriptions)
 
-🏥 Helps users find vaccination centers and general guidance
+-🏥 Helps users find vaccination centers and general guidance
 
-🌍 Culturally aware responses tailored for Bangladesh
+-🌍 Culturally aware responses tailored for Bangladesh
 
-🧾 Clear handling of uncertainty (“Not found in KB” when needed)
+-🧾 Clear handling of uncertainty (“Not found in KB” when needed)
 
-🛠️ Tools & Technologies Used
+***🛠️ Tools & Technologies Used
 
 Python
 
@@ -32,7 +32,7 @@ Flask (API & Web App)
 
 Pandas & Excel (Vector Database source)
 
-🎯 Final Note
+***🎯 Final Note
 
 AVA is built with a strong focus on public health, safety, and responsible AI use.
 By combining local health data with modern RAG architecture, the project demonstrates how AI can support vaccine education without replacing medical professionals.
@@ -92,5 +92,6 @@ Notes:
 - The project expects a `Vector_Database.xlsx` file in the project root for building the vector DB. If that file is not present, the app will start but the vector DB will not be populated.
 
 - Some libraries used in the code (Ollama / LangChain integrations) may require additional setup or non-Python tooling; consult their docs if you plan to use those features.
+
 
 
