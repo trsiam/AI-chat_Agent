@@ -1,11 +1,43 @@
 # Chatbot
 What is AVA?
+🧠 AVA (আভা) — Virtual Vaccine Assistant
 
-This a chat agent that helps people by giving information about vaccination
+AVA is a RAG-powered virtual vaccine information assistant designed for Bangladesh, focused on providing safe, guideline-based vaccine information—especially for adults with chronic diseases.
 
-Tools Used - Knowledge_Base as Vector DB , javascripts, HTML and Flask .
-The chatbot uses the VectorDB for answer refernces and reviews . If he didnot find one he will use his own base.
-It provides vaccinne info generally but it can answer more questions
+✨ Key Features
+
+💉 Evidence-based vaccine guidance using trusted sources
+
+📚 Retrieval-Augmented Generation (RAG) with a vector database
+
+⚠️ Strict medical safety rules (no diagnosis or prescriptions)
+
+🏥 Helps users find vaccination centers and general guidance
+
+🌍 Culturally aware responses tailored for Bangladesh
+
+🧾 Clear handling of uncertainty (“Not found in KB” when needed)
+
+🛠️ Tools & Technologies Used
+
+Python
+
+LangChain
+
+Ollama (LLM & Embeddings)
+
+Chroma Vector Database
+
+Flask (API & Web App)
+
+Pandas & Excel (Vector Database source)
+
+🎯 Final Note
+
+AVA is built with a strong focus on public health, safety, and responsible AI use.
+By combining local health data with modern RAG architecture, the project demonstrates how AI can support vaccine education without replacing medical professionals.
+
+📽️ Watch the short project demo video below to see AVA in action.
 
 
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/89839ff1-b5b2-49ce-b8ab-f3df51e934a9)
@@ -60,4 +92,5 @@ Notes:
 - The project expects a `Vector_Database.xlsx` file in the project root for building the vector DB. If that file is not present, the app will start but the vector DB will not be populated.
 
 - Some libraries used in the code (Ollama / LangChain integrations) may require additional setup or non-Python tooling; consult their docs if you plan to use those features.
+
 
